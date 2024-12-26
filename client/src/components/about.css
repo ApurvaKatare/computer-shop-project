@@ -1,0 +1,71 @@
+.background-color {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #1c1c1c;
+  color: rgb(255, 0, 0);
+  font-family: "Arial";
+}
+
+.about-container {
+    /* border: solid; */
+
+    width: 95%;
+    min-height: 90vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    background-color: #000000;
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 25px;
+    /* box-shadow: 24px 24px 30px #6d8dad; */
+  }
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .text-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .text-container h1 {
+    font-size: 50px;
+    padding: 10px 0px;
+  }
+  .text-container p {
+    font-size: 25px;
+    padding: 10px 0px;
+  }
+  .text-container a {
+    text-decoration: none;
+    padding: 12px;
+    border: 2px solid rebeccapurple;
+    margin-top: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+  }
+  .text-container a:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid rebeccapurple;
+    color: rgba(90, 90, 90, 0.7);
+  }
+  
